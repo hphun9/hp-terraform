@@ -4,10 +4,10 @@ terraform-modules/
 ├── README.md
 ├── LICENSE
 ├── .gitignore
-├── examples/                          # Ví dụ sử dụng các module
+├── examples/
 │   ├── aws/
-│   │   ├── complete/                 # Ví dụ đầy đủ
-│   │   ├── simple/                   # Ví dụ đơn giản
+│   │   ├── complete/
+│   │   ├── simple/
 │   │   └── README.md
 │   ├── azure/
 │   │   ├── complete/
@@ -33,7 +33,7 @@ terraform-modules/
 │   │   │   └── asg/                  # Auto Scaling Groups
 │   │   │
 │   │   ├── networking/
-│   │   │   ├── vpc/                  # VPC với subnets
+│   │   │   ├── vpc/                  # VPC and subnets
 │   │   │   ├── security-group/       # Security Groups
 │   │   │   ├── alb/                  # Application Load Balancer
 │   │   │   ├── nlb/                  # Network Load Balancer
@@ -140,7 +140,7 @@ terraform-modules/
 │       └── dns/
 │           └── cloud-dns/            # Cloud DNS
 │
-└── tests/                             # Terratest hoặc testing
+└── tests/                             # Terratest or testing
     ├── aws/
     ├── azure/
     └── gcp/

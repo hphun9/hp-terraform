@@ -16,8 +16,8 @@ Get started with Terraform Cloud Modules in 5 minutes!
 
 1. **Create a new directory**:
 ```bash
-mkdir my-terraform-project
-cd my-terraform-project
+mkdir hp-terraform
+cd hp-terraform
 ```
 
 2. **Create `main.tf`**:
@@ -70,8 +70,8 @@ output "public_ip" {
 
 1. **Create a new directory**:
 ```bash
-mkdir my-terraform-project
-cd my-terraform-project
+mkdir hp-terraform
+cd hp-terraform
 ```
 
 2. **Create `main.tf`**:
@@ -150,8 +150,8 @@ output "public_ip" {
 
 1. **Create a new directory**:
 ```bash
-mkdir my-terraform-project
-cd my-terraform-project
+mkdir hp-terraform
+cd hp-terraform
 ```
 
 2. **Create `main.tf`**:
